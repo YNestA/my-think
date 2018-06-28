@@ -2,8 +2,6 @@
  * Created by yang on 18-5-31.
  */
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
-import YSwiper from 'react-y-swiper';
 
 export default class YNestA extends Component {
     constructor(props) {

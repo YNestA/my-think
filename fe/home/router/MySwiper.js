@@ -2,10 +2,9 @@
  * Created by yang on 18-5-31.
  */
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
 import YSwiper from 'react-y-swiper';
 
-export default class YNestA extends Component {
+export default class MySwiper extends Component {
     render() {
         return (
             <YSwiper
@@ -15,11 +14,11 @@ export default class YNestA extends Component {
                 autoPlayTime={3}
                 speed={0.75}
                 onSlideStart={(i)=>{
-                        console.log(i);
-                    }}
+                    console.log(i);
+                }}
                 onSlideEnd={(i)=>{
-                        console.log(i);
-                    }}
+                    console.log(i);
+                }}
                 containerStyle={{
                     height:'9rem',
                     width:'25rem',
@@ -40,8 +39,3 @@ export default class YNestA extends Component {
         );
     }
 }
-
-ReactDOM.render(
-    <YNestA/>,
-    document.getElementById('main')
-);

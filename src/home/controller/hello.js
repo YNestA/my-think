@@ -1,10 +1,7 @@
-/**
- * Created by yang on 18-5-31.
- */
 import React from 'react';
 import {renderToString} from 'react-dom/server';
 const Base = require('./base.js');
-import YNestA from '../web/index';
+import YNestA from '../web/hello/hello';
 
 module.exports=class extends Base{
     indexAction(){

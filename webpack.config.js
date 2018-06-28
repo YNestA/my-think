@@ -6,7 +6,8 @@ const path = require('path');
 
 module.exports={
     entry:{
-        index:'./fe/index/index.js'
+        router:'./fe/home/router/index.js',
+        home_index:'./fe/home/index/index.js'
     },
     output:{
         filename:'[name].js',

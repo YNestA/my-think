@@ -1,6 +1,3 @@
 {
-//  "extends": "think"
-  "parserOptions": {
-    "ecmaVersion": 6
-  }
+  "extends": "think"
 }
