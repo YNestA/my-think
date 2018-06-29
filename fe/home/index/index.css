@@ -1,0 +1,8 @@
+.wrap{
+    background:url("/static/image/home/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.home_cover{
+    height:100vh;
+    padding-top: .6rem;
+}

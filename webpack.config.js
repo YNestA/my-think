@@ -22,7 +22,7 @@ module.exports={
                 test: /\.css$/,
                 use: [
                     'style-loader',
-                    'css-loader'
+                    'css-loader?modules'
                 ]
             },
             {
@@ -30,7 +30,7 @@ module.exports={
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['es2015', 'react'],
+                        presets: ['es2015', 'react','stage-3'],
                     }
                 },
                 exclude: /node_modules/

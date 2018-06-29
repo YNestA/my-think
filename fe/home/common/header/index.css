@@ -1,0 +1,16 @@
+.header{
+    position:relative;
+    width:100%;
+    height:.6rem;
+}
+.logo{
+    float:left;
+    height:100%;
+    padding:0 .2rem;
+}
+.logoA{
+    display:block;
+    color:#fff;
+    height:100%;
+    fontSize:.32rem;
+}

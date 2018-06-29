@@ -1,7 +1,7 @@
 import React from 'react';
 import {renderToString} from 'react-dom/server';
 const Base = require('./base.js');
-import YNestA from '../web/hello/hello';
+import YNestA from '../../../fe/home/hello/hello';
 
 module.exports=class extends Base{
     indexAction(){
