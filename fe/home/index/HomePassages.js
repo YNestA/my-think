@@ -6,7 +6,7 @@ export default class HomePassages extends Component{
     }
     render(){
         return (
-            <div>Home Passages</div>
+            <div id='home-passages' style={{backgroundColor:'#eee',height:'1000px'}}>Home Passages</div>
         );
     }
 }

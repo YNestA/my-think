@@ -1,8 +1,41 @@
 .wrap{
-    background:url("/static/image/home/bg.jpg") no-repeat center center fixed;
+    background:url("/static/image/home/background.jpg") no-repeat center center fixed;
     background-size: cover;
 }
-.home_cover{
+.homeCover{
     height:100vh;
     padding-top: .6rem;
 }
+.motto{
+    position: absolute;
+    width: 60%;
+    margin: auto;
+    left: 0;right: 0;top:0;
+    bottom: 0;
+}
+@keyframes jump {
+    from{
+        bottom: .5rem;
+    }
+    to{
+        bottom: .4rem;
+    }
+}
+.goDown{
+    position: absolute;
+    margin: auto;
+    left: 0;right: 0;
+    bottom:.4rem;
+    display: block;
+    width: .4rem;
+    height:.4rem;
+    background: url("/static/image/home/down_arrow.png") no-repeat center center;
+    background-size: cover;
+    opacity: .6;
+    transition: all .2s;
+    animation: jump .35s alternate infinite;
+}
+.goDown:hover{
+    opacity: 1;
+}
+

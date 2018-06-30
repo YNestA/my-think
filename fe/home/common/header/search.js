@@ -1,17 +1,19 @@
 import React,{Component} from 'react';
+import searchImg from './search.png'
+import styles from './search.css';
 
-const styles={
-    search:{
-        float:'right'
-    }
-};
 export default class Search extends Component{
     constructor(props){
         super(props);
     }
     render(){
         return (
-            <div onClick={()=>{alert(1)}} style={styles.search}>Search</div>
+            <div  className={styles.search}>
+                <input className={styles.searchInput} type='text'/>
+                <a className={styles.searchBtn} href='/'>
+                    <img  src={searchImg} alt='search'/>
+                </a>
+            </div>
         );
     }
 }

@@ -33,6 +33,7 @@
     "think-view": "^1.0.0",
     "think-view-nunjucks": "^1.0.1",
     "thinkjs": "^3.0.0",
+    "velocity-animate": "^1.5.1",
     "webpack-cli": "^2.1.4"
   },
   "devDependencies": {
@@ -43,12 +44,14 @@
     "css-loader": "^0.28.11",
     "eslint": "^4.2.0",
     "eslint-config-think": "^1.0.0",
+    "file-loader": "^1.1.11",
     "node-notifier": "^5.0.2",
     "nyc": "^7.0.0",
     "style-loader": "^0.21.0",
     "think-babel": "^1.0.3",
     "think-inspect": "0.0.2",
     "think-watcher": "^3.0.0",
+    "url-loader": "^1.0.1",
     "webpack": "^4.10.2"
   },
   "repository": "",
